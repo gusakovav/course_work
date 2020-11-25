@@ -1,0 +1,406 @@
+html {
+    height: 100%;
+}
+
+header {
+    background-color: #5900B2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* footer {
+    background-color: #5900B2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+
+header, footer {
+    height: 50px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'SF Pro Display';
+    background: #f3f3f5;
+    position: fixed;
+}
+
+.header_button {
+    background: #BB8EE1;
+    padding: 5px;
+    border-radius: 15px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 4px solid transparent;
+    margin-right: 30px;
+    color: #eee3f8;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 40px;
+    color: #eee3f8;
+}
+
+.navbar { 
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .container_body {
+    max-width: 1200px;
+    margin-right: 10%;
+    margin-left: 10%;
+} */
+
+a {
+    text-decoration: none;
+}
+
+.user {
+    display: inline-block;
+    background: #BB8EE1;
+    border-radius: 15px;
+    padding: 5px;
+    width: 150px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
+
+  .avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  img {
+    background-color: #9152d1;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    margin-right: 5px;
+  }
+
+.study_form {
+    margin-top: 100px;
+    background-color: #fafafb;
+}
+
+.study_form-2 {
+    background-color: #fafafb;
+}
+
+.nav_form {
+    margin-top: 100px;
+    background-color: #fafafb;
+}
+
+.input {
+        height: 30px;
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 2px solid #f3f3f5;
+        padding-left: 10px;
+}
+
+.input-2 {
+    height: 30px;
+    width: 50px;
+    margin-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid #f3f3f5;
+    padding-left: 10px;
+}
+
+p {
+    margin: 5px;
+}
+
+.p {
+    margin-left: 20px;
+}
+
+.general {
+    flex: 1 0 auto;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-form {
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 2px;
+    padding-left: 5px;
+    color: #8c7c9a;
+  }
+
+.flex-margin {
+    margin-left: 15px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+main div nav a {
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-left: 5px solid transparent;
+  }
+
+main div nav a:hover,
+main div nav a:focus {
+  border-left-color: #7800c1;
+  color: #1a0035;
+}
+
+.nav-border {
+    border: 1px solid transparent;
+    background: #fafafb;
+}
+
+.bottom-border {
+    border-bottom: 4px solid #f3f3f5;
+    /* width: 10px; */
+}
+
+.icon-design {
+    width: 50px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    background: #f3f3f5;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 10px;
+}
+  
+.icon-color {
+    color: #c5becc;
+}
+
+.text-nav {
+    color: #afa4b8;
+    font-size: 18px;
+}
+
+.button-submit {
+    margin-top: 120px;
+    height: 40px;
+    width: 130px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid transparent;
+    background: #7800c1;
+    margin-left: 20px;
+}
+  
+.button-reset {
+    margin-top: 120px;
+    margin-left: 20px;
+    height: 40px;
+    width: 130px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid transparent;
+    background: #eee3f8;
+  
+}
+  
+.text-submit{
+    color: #f3f3f5;
+}
+  
+.text-reset {
+    color: #8c7c9a;
+}
+
+.qwe {
+    height: 1000px;
+}
+
+.p-low {
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 20px;
+  }
+
+
+@media screen and (min-width: 968px) and (max-width: 1200px) {
+    .header_button {
+      margin-right: 20px;
+    }
+}
+  
+  @media screen and (min-width: 768px) and (max-width: 967px) {
+    header nav {
+      display: none;
+    }
+    main div nav a {
+      padding-left: 15px;
+    }
+}
+  
+  @media screen and (min-width: 600px) and (max-width: 767px){
+    aside {
+      display: none;
+    }
+
+    .year {
+        display: none;
+      }
+
+    .three {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .p {
+        margin-right: 20px;
+}
+
+    header nav {
+        display: none;
+      }
+    
+    main div nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    
+    .nav-right {
+        order: -1;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+
+    }
+    .study_form {
+        margin-top: 10px;
+    }
+
+    nav {
+        font-size: 10px;
+    }
+    .flex-margin {
+        margin-left: 0;
+}
+
+    .text-nav {
+        font-size: 12px;
+}
+
+}
+    
+    
+    @media screen and (max-width: 599px){
+      aside {
+        display: none;
+      }
+    
+      .year {
+        display: none;
+      }
+
+      .three {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+      header nav {
+        display: none;
+      }
+    
+      main div nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    
+      main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+      }
+    
+      .nav-right {
+        display: none;
+      }
+
+      .study_form {
+        margin-top: 10px;
+    }
+
+    .p {
+        margin-right: 20px;
+}
+
+
+    }

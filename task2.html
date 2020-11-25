@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <link rel="stylesheet" href="css/task2.css">
+    <link rel="stylesheet" href="css/flex-grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+        <a class="logo" href="#">ОЛИМП</a>
+        <nav>
+            <a class="header_button" href="#">Link 1</a>
+            <a class="header_button" href="#">Link 2</a>
+            <a class="header_button" href="#">Link 3</a>
+        </nav>
+        </div>
+        <div class="user">
+            <a class="avatar" href="#">
+              <img src="img/boy-avatar.png" alt="">
+              <span>Артемий</span>
+              <span class="material-icons">expand_more</span>
+            </a>
+          </div>
+    </header>
+    
+<div class="general flex-row">
+    <aside class="col-1"></aside>
+
+    <main class="col-10">
+        
+
+<div class="flex-row">
+    <div class="col-8 col-xs-12 col-sm-12 three">
+    <div>
+        <form action="#" method="POST"></form>
+    <div class="flex-row">
+        <div class="study_form col-7 col-xs-12 col-sm-12 ">
+            <div class="margin">
+            <div>
+                <p class="p"><label for="level">Уровень:</label></p>
+                    <p class="p"><select class="input" id="level">
+                        <option>Бакалавр</option>
+                        <option>Магистр</option>
+                        <option>Специалист</option>
+                        <option>Второе высшее</option>
+                    </select></p>
+            </div>
+            <div>
+                <p class="p"><label for="university">Учебное заведение:</label></p>
+                <p class="p"><input  class="input" name="university" id="university" type="text" placeholder="Название или аббревиатура" required minlength="2"></p>
+            </div>
+            <div>
+                <p class="p"><label for="facult">Факультет:</label></p>
+                <p class="p"><input  class="input" name="facult" id="facult" type="text" required minlength="2"></p>
+            </div>
+            <div>
+                <p class="p"><label for="university">Специализация:</label></p>
+                <p class="p"><input  class="input" name="spec" id="spec" type="text" required minlength="2"></p>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="study_form col-5  col-xs-12 col-sm-12 year">
+            <div>
+                <p><label for="grade_year">Год окончания:</label></p>
+                <div  class="flex-row">
+                    <p><input class="input-2" name="grade_year" id="grade_year" type="number" value="2021" minlength="4"></p>
+                    <p class="text-form">Если вы учитесь сейчас, укажите <br> предполагаемый год окончания </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+
+    <div class="flex-row bottom-border"></div>
+
+    <div class="study_form-2 flex-row col-12 add">
+        <p><a href="#" class="material-icons icon-design icon-color">add</a></p>
+        <p class="p-low">Добавить еще одно образование</p>
+    </div>
+    <div class="study_form-2 flex-row">
+        <button class="button-submit text-submit margin-bottom" type="submit" value="#">Сохранить</button>
+        <button class="button-reset text-reset margin-bottom" type="reset"  value="#">Отмена</button>
+        </div>
+</div>
+
+    </div>
+
+            <div class="flex-row col-4 nav">
+            <div class="flex-margin nav-border nav_form">
+            <nav class="nav-right">
+                <a class="text-nav" href="#">Личная информация</a>
+                <a class="text-nav" href="#">Основное образование</a>
+                <a class="text-nav" href="#">Дополнительное образование</a>
+                <a class="text-nav" href="#">Ключевые навыки</a>
+                <a class="text-nav" href="#">Профессиональные навыки</a>
+                <a class="text-nav" href="#">Обо мне</a>
+            </nav>
+            </div>
+        </div>
+    </div>
+    
+   
+</div>
+
+</main>
+<!-- <aside class="col-1">
+</aside> -->
+</div>
+    <footer>
+
+    </footer>
+
+
+</body>
+</html>
